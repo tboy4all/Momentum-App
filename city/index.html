@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="city.css" />
+  </head>
+  <body>
+    <main>
+      <button>
+        <a href="../index.html">GO BACK</a>
+      </button>
+      <h3>Welcome to Global Cities Weather Checker App</h3>
+      <div>
+        <h4 id="title"></h4>
+        <h5 id="temperature"></h5>
+        <img id="weather-image" />
+        <div>
+          <span id="weather-summary"></span>
+          <span id="weather-description"></span>
+        </div>
+      </div>
+      <div>
+          <form id="city-form">
+            <label for="City"
+              ><b>City: </b><input id="city" type="text" placeholder=""
+            /></label>
+          </form>
+      </div>
+    </main>
+    <script type="module" src="../js/weather.js"></script>
+  </body>
+</html>
